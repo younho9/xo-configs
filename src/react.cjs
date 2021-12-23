@@ -1,8 +1,11 @@
+const baseConfig = require('./index.cjs');
+
 /** @type {import('xo').Options & {overrides?: Array<{files: string} & import('xo').Options>}} */
 module.exports = {
 	extends: ['xo-react', 'plugin:react/jsx-runtime'],
 	ignores: ['vite-env.d.ts'],
 	rules: {
+		...baseConfig.rules,
 		'import/extensions': 'off',
 	},
 	overrides: [
