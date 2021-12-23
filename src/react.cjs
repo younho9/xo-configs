@@ -36,14 +36,13 @@ module.exports = {
 					{
 						// Allowing StrictPascalCase for React components.
 						// see - https://github.com/xojs/eslint-config-xo-typescript/issues/48
-						selector: ['variable', 'function', 'objectLiteralProperty', 'objectLiteralMethod'],
+						selector: ['function', 'objectLiteralProperty', 'objectLiteralMethod'],
 						format: ['StrictPascalCase', 'strictCamelCase'],
 						leadingUnderscore: 'allowSingleOrDouble',
 						trailingUnderscore: 'allow',
 					},
 					{
 						selector: 'variable',
-						modifiers: ['const', 'global'],
 						format: ['UPPER_CASE', 'StrictPascalCase', 'strictCamelCase'],
 						leadingUnderscore: 'allowSingleOrDouble',
 						trailingUnderscore: 'allow',
