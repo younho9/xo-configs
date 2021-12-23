@@ -7,6 +7,8 @@ module.exports = {
 	rules: {
 		...baseConfig.rules,
 		'import/extensions': 'off',
+		/** @see https://github.com/webpack/webpack/issues/13290 */
+		'unicorn/prefer-node-protocol': 'off',
 	},
 	overrides: [
 		{
