@@ -21,7 +21,9 @@ module.exports = {
 					{
 						selector: 'variable',
 						modifiers: ['const', 'global'],
-						format: ['UPPER_CASE'],
+						format: ['UPPER_CASE', 'strictCamelCase'],
+						leadingUnderscore: 'allowSingleOrDouble',
+						trailingUnderscore: 'allow',
 					},
 					{
 						selector: 'variable',
