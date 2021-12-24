@@ -19,8 +19,7 @@ module.exports = {
 					// The first two rules are customization of default eslint-config-xo-typescript.
 					// Start of custom rules
 					{
-						selector: 'variable',
-						modifiers: ['const', 'global'],
+						selector: ['variable', 'objectLiteralProperty'],
 						format: ['UPPER_CASE', 'strictCamelCase'],
 						leadingUnderscore: 'allowSingleOrDouble',
 						trailingUnderscore: 'allow',
@@ -42,7 +41,7 @@ module.exports = {
 							// 'variable',
 							'function',
 							'classProperty',
-							'objectLiteralProperty',
+							// 'objectLiteralProperty',
 							'parameterProperty',
 							'classMethod',
 							'objectLiteralMethod',

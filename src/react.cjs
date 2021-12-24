@@ -15,6 +15,7 @@ module.exports = {
 		'unicorn/prefer-node-protocol': 'off',
 	},
 	overrides: [
+		...baseConfig.overrides,
 		{
 			files: '**/*.{ts,tsx}',
 			rules: {
@@ -36,13 +37,13 @@ module.exports = {
 					{
 						// Allowing StrictPascalCase for React components.
 						// see - https://github.com/xojs/eslint-config-xo-typescript/issues/48
-						selector: ['function', 'objectLiteralProperty', 'objectLiteralMethod'],
+						selector: ['function', 'objectLiteralMethod'],
 						format: ['StrictPascalCase', 'strictCamelCase'],
 						leadingUnderscore: 'allowSingleOrDouble',
 						trailingUnderscore: 'allow',
 					},
 					{
-						selector: 'variable',
+						selector: ['variable', 'objectLiteralProperty'],
 						format: ['UPPER_CASE', 'StrictPascalCase', 'strictCamelCase'],
 						leadingUnderscore: 'allowSingleOrDouble',
 						trailingUnderscore: 'allow',
