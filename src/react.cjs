@@ -134,6 +134,13 @@ module.exports = {
 						],
 					},
 				],
+				/** @see https://github.com/typescript-eslint/typescript-eslint/issues/1184 */
+				'@typescript-eslint/no-floating-promises': [
+					'error',
+					{
+						ignoreVoid: true,
+					},
+				],
 				'unicorn/filename-case': [
 					'error',
 					{
