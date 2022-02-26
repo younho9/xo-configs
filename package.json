@@ -24,7 +24,8 @@
 	"sideEffects": false,
 	"exports": {
 		".": "./src/index.cjs",
-		"./react": "./src/react.cjs"
+		"./react": "./src/react.cjs",
+		"./next": "./src/next.cjs"
 	},
 	"files": [
 		"src"
@@ -40,6 +41,7 @@
 		"extends": "@commitlint/config-conventional"
 	},
 	"dependencies": {
+		"@next/eslint-plugin-next": "^12.1.0",
 		"eslint-config-xo-react": "0.25.0",
 		"eslint-plugin-react": "7.28.0",
 		"eslint-plugin-react-hooks": "4.3.0"
