@@ -37,6 +37,7 @@ module.exports = {
 						ignoreVoid: true,
 					},
 				],
+				'react/prop-types': 'off',
 				'unicorn/filename-case': [
 					'error',
 					{
