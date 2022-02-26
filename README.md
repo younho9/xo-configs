@@ -19,6 +19,8 @@ $ npm install @younho9/xo-configs
 module.exports = require('@younho9/xo-configs');
 // or
 module.exports = require('@younho9/xo-configs/react');
+// or
+module.exports = require('@younho9/xo-configs/next');
 ```
 
 ## LICENSE
