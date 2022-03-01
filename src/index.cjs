@@ -26,6 +26,12 @@ module.exports = {
 				],
 			},
 		},
+		{
+			files: '**/{const,constants}/**',
+			rules: {
+				'@typescript-eslint/naming-convention': 'off',
+			},
+		},
 	],
 };
 
