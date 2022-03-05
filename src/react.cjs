@@ -3,6 +3,7 @@ const baseConfig = require('./index.cjs');
 /** @type {import('xo').Options & {overrides?: Array<{files: string} & import('xo').Options>}} */
 module.exports = {
 	extends: [
+		...baseConfig.extends,
 		'xo-react',
 		/** @see https://github.com/yannickcr/eslint-plugin-react#configuration */
 		'plugin:react/jsx-runtime',

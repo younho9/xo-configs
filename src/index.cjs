@@ -1,5 +1,8 @@
 /** @type {import('xo').Options & {overrides?: Array<{files: string} & import('xo').Options>}} */
 module.exports = {
+	extends: [
+		'plugin:cypress/recommended',
+	],
 	rules: {
 		'import/order': [
 			'warn',
