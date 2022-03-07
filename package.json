@@ -43,13 +43,13 @@
 	"dependencies": {
 		"@next/eslint-plugin-next": "^12.1.0",
 		"eslint-config-xo-react": "0.25.0",
+		"eslint-plugin-cypress": "^2.12.1",
 		"eslint-plugin-react": "7.28.0",
 		"eslint-plugin-react-hooks": "4.3.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "15.0.0",
 		"@commitlint/config-conventional": "15.0.0",
-		"eslint-plugin-cypress": "^2.12.1",
 		"husky": "7.0.4",
 		"xo": "0.48.0"
 	},
