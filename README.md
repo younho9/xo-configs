@@ -1,3 +1,7 @@
+# DEPRECATED
+
+Package no longer supported. Please use [@younho9/eslint-config](https://github.com/younho9/eslint-config)
+
 # @younho9/xo-configs
 
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
